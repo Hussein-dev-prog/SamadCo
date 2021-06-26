@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<div lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -7,134 +7,207 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 </head>
-
+<body>
     <header class="header">
-        <img src="images/ARP-article-Aureus.jpg" alt="fuites_back" width="70%">
-        <div></div>
-        <img src="images/logo1.png" alt="" class="logo" width="50%">
-    </header>
- <div class="card__images">
-        <div class="apple_card card">
-            <img src="images/apples-01.jpg" alt="" class="img1">
-            <h2 class="header">Apples</h2>
+        <ul>
+            <nav class="navbar navbar-expand-lg text-uppercase fixed-top " id="mainNav">
+                <div class="container">
+                    <a class="navbar-brand" href="#page-top"><img src="images/logo1.png" alt="" width="20%"></a>
+                    <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        Menu
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item  mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Home</a></li>
+                            <li class="nav-item  mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                            <li class="nav-item  mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+       <!-- <img src="images/ARP-article-Aureus.jpg" alt="fuites_back" width="100%" class="back">
+       <div class="logoback"> <img src="images/logo1.png" alt="" class="logo" width="50%"></div> -->
+    </header> 
+ <div class="card__images container">
+     <div class="row ">
+        <div class="apple_card crd my-2  col-sm-12 col-md-12 col-lg-12 col-xl-12" id="applew" >
+            <img src="images/apples-01.jpg" alt="" class="img1 allimagescard ">
+            <div class="overlay">
+            <div class="content">
+            <h2 class="header">APPLES</h2>
             <h6 class="description">
-                Red Delicious, Royal Gala, Granny Smith
+                RED DELICIOUS, ROYAL GALA, GRANNY SMITH
                 <br>
-                Golden Delicious, Fuji
+                GOLDEN DELICIOUS, FUJI
             </h6>
-            <a href="#">info</a>
-        </div>
-        <div class="lemon_card card">
-            <img src="images/lemons-01.jpg" alt="" class="img2">
-            <h2 class="header">LEMONS</h2>
+            <a href="#" class="btn">+ info</a>
+        </div> 
+    </div>
+     </div>
+            
+        <div class="lemon_card my-2 crd col-sm-12 col-md-6 col-lg-6 col-xl-6" >
+            <img src="images/lemons-01.jpg" alt="" class="img2 allimagescard ">
+            <div class="overlay">
+                <div class="content">
+               <h2 class="header">LEMONS</h2>
             <h6 class="description">
                 EUREKA, PRIMOFIORI, LAMAS,
                 <br>
                 VERNA, INTERDONATO
             </h6>
-            <a href="#">info</a>
+            <a href="#" class="btn">+ info</a>
         </div>
-        <div class="orange_card card">
-            <img src="images/oranges-01.jpg" alt="" class="img3">
+        </div>
+        </div>
+        <div class="orange_card my-2 crd col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <img src="images/oranges-01.jpg" alt="" class="img3 allimagescard ">
+            <div class="overlay">
+                <div class="content">
             <h2 class="header">ORANGES</h2>
             <h6 class="description">
                 VALENCIAS, NAVELS, MIDKNIGHTS,
                 <br>
                 LANELATES, NAVELS LATES
             </h6>
-            <a href="#">info</a>
+            <a href="#" class="btn">info</a>
         </div>
-        <div class="grape_card card">
-            <img src="images/grapefruits-01.jpg" alt="" class="img4">
+            </div>
+        </div>
+        <!-- </div> -->
+        <!-- </div> -->
+        <!-- <div class="container"> -->
+         <!-- <div class="row"> -->
+        <div class="grape_card my-2 crd col-sm-12 col-md-6 col-lg-4 col-xl-4">
+            <img src="images/grapefruits-01.jpg" alt="" class="img4 allimagescard ">
+            <div class="overlay">
+                <div class="content">
             <h2 class="header">GRAPES</h2>
             <h6 class="description">
                 RED GLOBE, CRIMSON,
                 <br>
                 AUTUMN ROYAL, SUGARONE, PRIME
             </h6>
-            <a href="#">info</a>
+            <a href="#" class="btn">+ info</a>
         </div>
-        <div class="pear_card card">
-            <img src="images/pears-01.jpg" alt="" class="img5">
+        </div>
+        </div>
+        <div class="pear_card crd my-2 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+            <img src="images/pears-01.jpg" alt="" class="img5 allimagescard ">
+            <div class="overlay">
+                <div class="content">
             <h2 class="header">PEARS</h2>
             <h6 class="description">
                 PACKHAM'S, WILLIAMS,
                 <br>
                 FORELLE, D'ANJOU
             </h6>
-            <a href="#">info</a>
+            <a href="#" class="btn">+ info</a>
         </div>
-        <div class="tangerine_card card">
-            <img src="images/tangerines-01.jpg" alt="" class="img6">
+        </div>
+        </div>
+        <div class="tangerine_card my-2 crd col-sm-12 col-md-6 col-lg-4 col-xl-4">
+            <img src="images/tangerines-01.jpg" alt="" class="img6 allimagescard">
+            <div class="overlay">
+                <div class="content">
             <h2 class="header">TANGERINES</h2>
             <h6 class="description">
                 NADORCOTT, HONEY MURCOTTS, SATSUMAS,
                 <br>
                 NOVAS, FORTUNA, ORTANIQUE
             </h6>
-            <a href="#">info</a>
+            <a href="#" class="btn">+ info</a>
         </div>
-        <div class="pomegranates_card card">
-            <img src="images/pomegranates-01.jpg" alt="" class="img7">
+        </div>
+        </div>
+        <div class="pomegranates_card my-2 crd col-sm-12 col-md-6 col-lg-4 col-xl-4">
+            <img src="images/pomegranates-01.jpg" alt="" class="img7 allimagescard">
+            <div class="overlay">
+                <div class="content">
             <h2 class="header">POMEGRANATES</h2>
             <h6 class="description">
                 WONDERFUL, ACCO
                 <br>
             </h6>
-            <a href="#">info</a>
+            <a href="#" class="btn">+ info</a>
         </div>
-        <div class="avocado_card card">
-            <img src="images/avocados-01.jpg" alt="" class="img8">
+        </div>
+        </div>
+        <div class="avocado_card crd my-2 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+            <img src="images/avocados-01.jpg" alt="" class="img8 allimagescard">
+            <div class="overlay">
+                <div class="content">
             <h2 class="header">AVOCADOS
             </h2>
             <h6 class="description">
                 HASS, FUERTE
                 <br>
             </h6>
-            <a href="#">info</a>
+            <a href="#" class="btn">+ info</a>
         </div>
-        <div class="cherrie_card card">
-            <img src="images/cherries-01.jpg" alt="" class="img9">
+        </div>
+        </div>
+        <div class="cherrie_card crd my-2 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+            <img src="images/cherries-01.jpg" alt="" class="img9 allimagescard">
+            <div class="overlay">
+                <div class="content">
             <h2 class="header">CHERRIES</h2>
             <h6 class="description">
                 BING, REGINA, MISC,
                 <br>
                 SANTINA, LAPINA, PAMPINS
             </h6>
-            <a href="#">info</a>
+            <a href="#" class="btn">+ info</a>
         </div>
-        <div class="stone_card card">
-            <img src="images/stonefruit-01.jpg" alt="" class="img10">
+        </div>
+        </div>
+ 
+        <div class="stone_card crd my-2 col-sm-12 col-md-6 col-lg-4 col-xl-6">
+            <img src="images/stonefruit-01.jpg" alt="" class="img10 allimagescard">
+            <div class="overlay">
+                <div class="content">
             <h2 class="header">STONE FRUIT</h2>
             <h6 class="description">
                 PEACHES, NECTARINES, PLUMS
                 <br>
             </h6>
-            <a href="#">info</a>
+            <a href="#" class="btn">+ info</a>
         </div>
-    <div class="grapfruit_card card">
-        <img src="images/grapefruits-01.jpg" alt="" class="img11">
+        </div>
+        </div>
+    <div class="grapfruit_card crd my-2 col-sm-12 col-md-6 col-lg-4 col-xl-6">
+        <img src="images/grapefruits-01.jpg" alt="" class="img11 allimagescard">
+        <div class="overlay">
+            <div class="content">
         <h2 class="header">GRAPEFRUITS</h2>
         <h6 class="description">
             STAR RUBY, RUBY RED,
             <br>
             MARSH
         </h6>
-        <a href="#">info</a>
+        <a href="#" class="btn">+ info</a>
       </div>
-      <div class="fig_card card">
-        <img src="images/figs-01.jpg" alt="" class="img12">
+      </div>
+      </div>
+      <div class="fig_card crd my-2 col-sm-12 col-sm-12 col-md-6 col-lg-4 col-xl-12">
+        <img src="images/figs-01.jpg" alt="" class="img12 allimagescard">
+        <div class="overlay">
+            <div class="content">
         <h2 class="header">FIGS</h2>
         <h6 class="description">
             BROWN TURKEY, EVITA
             <br>
         </h6>
-        <a href="#">info</a>
+        <a href="#" class="btn">+ info</a>
     </div>
-
+</div> 
 </div>
-    
+    </div>
+    </div>
 </body>
-
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </html>

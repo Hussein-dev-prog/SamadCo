@@ -1,7 +1,67 @@
-* {
-  padding: 0;
-  margin: 0;
+.allimagescard {
+  display: block;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
-.image1 {
-  background-image: url("images/apples-01.jpg");
+.card__images {
+  margin-top: 150px;
+}
+
+#mainNav {
+  background-color: #6c7a89;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+}
+
+.crd:hover .overlay {
+  opacity: 1;
+}
+
+.crd {
+  position: relative;
+}
+
+/* .container {
+  position: relative;
+} */
+.content {
+  color: white;
+  /* font-size: 15px; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+}
+.content > .btn {
+  display: inline-block;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 1em;
+  border: 1px solid #fff;
+  color: white;
+}
+.content > .btn:hover {
+  background-color: #fff;
+  color: black;
+}
+h6 {
+  font-size: small;
 }
