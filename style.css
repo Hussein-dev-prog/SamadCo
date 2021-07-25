@@ -6,6 +6,7 @@
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
     rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
+
 .card__images {
   /* margin-top: 150px; */
   margin-top: 0px;
@@ -15,20 +16,20 @@
   background-color: #abb7b7;
 }
 .overlay {
-  position: absolute;
+  /* position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   height: auto;
   width: 100%;
-  opacity: 0;
-  transition: 1s ease;
+  opacity: 1;
+  transition: 1s ease; */
 }
 
-.crd:hover .overlay {
+/* .crd:hover .overlay {
   opacity: 1;
-}
+} */
 
 .crd {
   position: relative;
@@ -58,6 +59,8 @@
   font-size: 1em;
   border: 1px solid #fff;
   color: white;
+  text-shadow: none !important;
+  /* background: transparent !important; */
 }
 .content > .info:hover {
   background-color: #fff;
@@ -75,52 +78,14 @@ h6 {
   position: relative;
 }
 
-/* Hide the links inside the navigation menu (except for logo/home) */
-/* .topnav #myLinks {
-  display: none;
-} */
-
-/* Style navigation menu links */
-/* .topnav a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-} */
-
-/* Style the hamburger menu */
-/* .topnav a.icon {
-  background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-} */
-
-/* Add a grey background color on mouse-over */
-/* .topnav a:hover {
-  background-color: #ddd;
-  color: black;
-} */
-
-/* Style the active link (or home/logo) */
-/* .active {
-  background-color: #04AA6D;
-  color: white;
-} */
-/* .aboutUs {
-  background-color: #abb7b7;
-  font-size: 1rem;
-  font-weight: bold;
-} */
 .about {
   font-family: "Baloo Tamma 2", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 900;
   line-height: 1.2;
-  color: #104051;
+  /* color: #104051; */
+  color: #f1828d;
   text-align: center;
 }
 .text-500-left {
@@ -130,15 +95,68 @@ h6 {
   color: #949494 !important;
 }
 .media {
+  /* background-color: white; */
+  color: rgb(255, 255, 255);
+  /* border: 2px solid #000000; */
+  font-size: 25px;
+  border-radius: 5px;
   text-decoration: none;
-  color: rgb(0, 0, 0);
-  background-color: #abb7b7;
+}
+.media:hover {
+  background-color: #2f5df5;
+  color: rgb(255, 255, 255);
 }
 body {
-  /* background-color: #000000 !important ; */
+  background-color: #f2f1ef !important ;
 }
-.contact{
+.text-300 {
+  color: #e1e1e1 !important;
+}
+.Contactus {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+.allmedia {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.iconw {
+  font-size: 25px;
+  color: white;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  a > .logo {
+    object-fit: cover;
+    /* max-width: 100%; */
+    width: 40%;
+    /* display: none; */
+  }
+  .media {
+    font-size: 20px;
+  }
+  .iconw {
+    font-size: 20px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  a > .logo {
+    object-fit: cover;
+    /* max-width: 100%; */
+    width: 40%;
+    /* display: none; */
+  }
+}
+@media only screen and (max-width: 992px) {
+  a > .logo {
+    object-fit: cover;
+    /* max-width: 100%; */
+    width: 25%;
+    /* display: none; */
+  }
 }
